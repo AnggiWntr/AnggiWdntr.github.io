@@ -1,0 +1,384 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin: 0px 50px;
+}
+
+header .logo a img {
+    float: left;
+    width: 150px;
+    margin-top: 5px;
+}
+
+header .menu {
+    float: right;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    color: #2C3333;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #F05454;
+    transition: all ease 0.3s;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 120px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.about-img img {
+    width: 450px;
+    height: 450px;
+}
+
+.about-container {
+    margin: 0px 30px;
+    display: flex;
+}
+
+
+.about-text {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.about-text h1 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #F05454;
+    width: 100%;
+    line-height: 50px;
+}
+
+.about-text h2 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #F05454;
+    width: 100%;
+    line-height: 50px;
+}
+
+.about-text p {
+    color: #2C3333;
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.about-text p b {
+    color: #F05454;
+
+}
+
+.btn {
+    background-color: #F05454;
+    color: #2C3333;
+    border: 3px solid #ffffff;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    border: 3px solid #F05454;
+    transition: all ease .3s;
+}
+
+#mywork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mywork-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.mywork-title h1 a {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #F05454;
+    width: 100%;
+    line-height: 50px;
+}
+
+.mywork-title h1 a:hover {
+    color: #2C3333;
+}
+
+.mywork-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.mywork-box {
+    width: 400px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.267);
+
+}
+
+.mywork-img {
+    width: 100%;
+    height: auto;
+}
+
+.mywork-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.mywork-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: calibri;
+}
+
+.mywork-text span {
+    color: gray;
+}
+
+.mywork-text .mywork-link {
+    font-size: 25px;
+    color: #100F0F;
+}
+
+.mywork-text .mywork-link:hover {
+    color: #F05454;
+    transition: all ease 0.3s;
+}
+
+.mywork-text p {
+    color: gray;
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px 0px;
+}
+
+.mywork-text a {
+    color: #100F0F;
+}
+
+.mywork-text a:hover {
+    color: #F05454;
+    transition: all ease 0.3s;
+}
+
+#footer {
+    background: gray;
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    color: #2C3333;
+}
+
+.footer-section a {
+    color: #2C3333;
+}
+
+.footer-section a:hover {
+    color: #100F0F;
+}
+
+.footer-section h3 {
+    padding-bottom: 10px;
+
+}
+
+.footer-section p {
+    padding-bottom: 10px;
+}
+
+.footer-section i {
+    margin: 0px 10px;
+}
+
+.copyright {
+    text-align: center;
+    color: #2C3333;
+    background: gray;
+    font-size: 12px;
+}
+
+#content-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.about-title {
+    color: #F05454;
+    font-size: 40px;
+}
+
+.content-about-container {
+    width: 90%;
+    margin: 0px 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.content-about-img img {
+    width: 300px;
+    height: 300px;
+    margin-top: 12px;
+    margin-left: 120px;
+
+}
+
+.content-text {
+    margin: 100px 50px;
+    width: 600px;
+    height: auto;
+}
+
+.content-text p {
+    font-family: calibri;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.landscape {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.landscape img {
+    width: 100%;
+}
+
+.content-about-container-2 {
+    width: 90%;
+    margin: 0px 30px;
+    margin-bottom: 30px;
+}
+
+.content-text-2 {
+    margin: 0px 50px;
+}
+
+.content-text-2 p {
+    font-family: calibri;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+#mywork .about-title {
+    margin: 30px 0px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.contact-container {
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.contact-text {
+    margin-left: 50px;
+    margin-right: 10px;
+    width: 50%;
+}
+
+.contact-form {
+    margin-right: 50px;
+    margin-left: 10px;
+    width: 50%;
+}
